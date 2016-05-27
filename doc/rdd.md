@@ -17,6 +17,8 @@ mapAll(promises).then(res => console.log(res));
 // ]
 ```
 
+If you pass an empty array, it immediately resolves to an empty array:
+
 ```js
 const promises = [];
 
