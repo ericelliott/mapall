@@ -1,3 +1,6 @@
+`Promise.all()` is great, but as soon as any promise is rejected, the returned promise rejects.
+
+For unit testing, we sometimes want to inspect the resolved / rejected status of every promise in an array.
 
 ```js
 const promises = [
